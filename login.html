@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Авторизация</h1>
+
+    <!-- Форма авторизации -->
+    <form id="login-form">
+        <label for="username">Логин:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <button type="submit">Войти</button>
+    </form>
+
+    <p id="login-status"></p> <!-- Сообщение об ошибке или успехе -->
+
+    <script src="app.js"></script> <!-- Подключаем JavaScript -->
+</body>
+</html>
